@@ -1,0 +1,45 @@
+:root {
+  --text-color: #000000e6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+
+.row {
+  display: flex;
+}
+
+.c-1-2 {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+
+.c-10-8 {
+  flex: 0 0 90%;
+  max-width: 90%;
+}
+
+.c-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+
+.c-3-6 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}

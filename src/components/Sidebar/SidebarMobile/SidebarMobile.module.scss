@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background-color: #191718;
+  width: 100%;
+}
+
+.list li {
+  padding: 8px;
+  color: #fff;
+  border-bottom: 1px solid #5c5c5c;
+}

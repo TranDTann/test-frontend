@@ -1,0 +1,15 @@
+.list {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #191718;
+  width: 10%;
+}
+
+.list li {
+  padding: 8px;
+  color: #fff;
+  border-bottom: 1px solid #5c5c5c;
+}

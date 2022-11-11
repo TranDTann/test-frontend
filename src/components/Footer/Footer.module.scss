@@ -1,0 +1,26 @@
+.wrapper p {
+  padding: 8px 60px 16px 60px;
+  border-top: 1px solid #dedede;
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .wrapper {
+    margin-top: 16px;
+    margin-left: -32px;
+  }
+
+  .wrapper p {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile and Tablet: width < 1024px */
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
